@@ -1,5 +1,6 @@
 # Description
 Visited_sites is small project, witch records your visits on websites
+
 Website records are stored in Redis, project builds with Docker
 
 # Installation for local usage:
