@@ -29,7 +29,7 @@ Come into Django-Project container
 ```
 sudo docker exec -it <yatube_web_1 container's ID> sh
 ```
-Configure it like a local project, migrate tables for PostgreSQL
+Configure it like a local project, migrate tables
 ```
 python3 manage.py migrate
 ```
