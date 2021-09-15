@@ -8,9 +8,3 @@ class VisitAddSerializer(serializers.Serializer):
         child=serializers.CharField(max_length=100)
     )
 
-
-class VisitViewSerializer(serializers.ModelSerializer):
-    domains = serializers.ListSerializer(
-        child=serializers.CharField(max_length=100)
-    )
-    status = serializers.CharField()
