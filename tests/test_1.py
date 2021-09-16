@@ -5,7 +5,7 @@ from django.core.cache import cache
 
 
 class TestAddingLinks:
-    """ Testing adding functional with valid and invalid data"""
+    """Testing adding functional with valid and invalid data"""
 
     def test_01_valid_adding_sites(self, client, valid_data, clear_cache):
         response = client.post('http://127.0.0.1:8000/visited_links/',

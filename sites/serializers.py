@@ -1,7 +1,5 @@
 from rest_framework import serializers
 
-from sites.models import Visit
-
 
 class VisitAddSerializer(serializers.Serializer):
     links = serializers.ListSerializer(
